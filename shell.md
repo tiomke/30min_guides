@@ -42,6 +42,14 @@ Linux默认安装就带了shell解释器。
 #### Mac OS
 Mac OS不仅带了sh、bash这两个最基础的解释器，还内置了ksh、csh、zsh等不常用的解释器。
 
+##### Mac OS X 上创建可执行脚本的方法：执行chmod +x myscript.sh
+
+- 创建一个后缀名为.sh的脚本文件(例如script.sh)
+- 终端进人脚本文件所在目录执行  
+	```
+	$ chmod +x script.sh
+	```
+
 #### Windows上的模拟器
 windows出厂时没有内置shell解释器，需要自行安装，为了同时能用grep, awk, curl等工具，最好装一个cygwin或者mingw来模拟linux环境。
 
